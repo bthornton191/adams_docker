@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "C:\\Users\\ben.thornton\\Code\\thornpy",
+        "C:\\Users\\ben.thornton\\Code\\adamspy",
+        "C:\\Users\\ben.thornton\\Code\\aviewpy",
+        "C:\\Users\\ben.thornton\\Code\\adams_shell_wear",
+        "c:\\Users\\ben.thornton\\.vscode\\extensions\\savvyanalyst.msc-adams-0.2.0\\resources\\adamspy"
+    ]
+}

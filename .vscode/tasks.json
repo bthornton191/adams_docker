@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "build",
-            "command": "docker build --tag bthornton191/adams-python-ssh:2022.1-3.8.8-0.0.24.0-win10 .",
+            "command": "docker build --tag bthornton191/adams:2022_1_875404-win10 .",
             "group": {
                 "kind": "build",
                 "isDefault": true
