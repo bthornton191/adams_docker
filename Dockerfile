@@ -2,17 +2,17 @@
 FROM mcr.microsoft.com/windows:10.0.17763.4645
 WORKDIR C:/
 COPY installers installers
+COPY install_scripts install_scripts
 WORKDIR C:/installers
 
-# --------------------
-# Install Adams 2022.1
-# --------------------
-RUN adams_2022.1_windows64.exe -s -f1"C:/installers/adams_2022.1_windows64.iss"
-ENV ADAMS_LAUNCH_COMMAND="C:/Adams/2022_1_875404/common/mdi.bat"
+# -------------
+# Install Adams
+# -------------
+RUN adams_2022.1_windows64.exe -s -f1"C:/install_scripts/adams_2022.1_windows64.iss"
+RUN adams_2022.2_windows64.exe -s -f1"C:/install_scripts/adams_2022.2_windows64.iss"
 WORKDIR C:/
 RUN rmdir /S /Q installers
+RUN rmdir /S /Q install_scripts
 RUN mkdir workdir
-
-ENTRYPOINT [ "C:/Adams/2022_1_875404/common/mdi.bat" ]
 
 WORKDIR C:/workdir

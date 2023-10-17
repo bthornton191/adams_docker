@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "build",
-            "command": "docker build --tag bthornton191/adams:2022_1_875404-win10 .",
+            "command": "docker build --tag bthornton191/adams:all_versions-win10 .",
             "group": {
                 "kind": "build",
                 "isDefault": true
