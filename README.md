@@ -1,6 +1,6 @@
 # Adams Docker
 ## Usage
-
+The following runs a mymodel.acf in the current working directory using adams 2022.2.
 ```bat
 docker run -v .:c:/workdir -e MSC_LICENSE_FILE=27500@%COMPUTERNAME% bthornton191/adams_2022.2_windows64 mdi.bat ru-s mymodel.acf
 ```
