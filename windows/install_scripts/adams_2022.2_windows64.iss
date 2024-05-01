@@ -26,12 +26,12 @@ szCompany=hexagon
 nvUser=1
 Result=1
 [{192E9791-60E0-4313-9050-AF45746D4AC7}-MSC_SetupType2-0]
-szDir=C:\Adams\2022_2_886672
+szDir=C:\Adams
 Result=302
 SetupType=502
 SetupName=SetupType2
 [{192E9791-60E0-4313-9050-AF45746D4AC7}-MSC_SdFeatureTree-0]
-szDir=C:\Adams\2022_2_886672
+szDir=C:\Adams
 CORE-type=string
 CORE-count=2
 CORE-0=CORE\solver

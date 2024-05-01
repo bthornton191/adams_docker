@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "build-windows",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "build.py",
+            "console": "integratedTerminal",
+            "args": [
+                "windows\\Dockerfile",
+                "windows\\install_scripts",
+                "E:\\adams_installers\\windows",
+                "--push"
+            ],
+        }
+    ]
+}

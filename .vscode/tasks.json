@@ -4,15 +4,21 @@
         {
             "type": "shell",
             "label": "build-windows",
-            "command": "docker build --tag bthornton191/adams:all_versions-win10 .",
+            "command": "python",
+            "args": [
+                "build.py",
+                "windows\\Dockerfile",
+                "windows\\install_scripts",
+                "E:\\adams_installers\\windows"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "options": {
-                "cwd": "${workspaceFolder}/windows"
-            },
             "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
         }
     ]
 }
